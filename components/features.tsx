@@ -3,8 +3,12 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import FeaturesBg from '@/public/images/features-bg.png'
-import FeaturesElement from '@/public/images/features-element.png'
+import FiveDayBg from '@/public/images/5 Day Club Logo.png'
+import GoodnewsclubBg from '@/public/images/GNC logo.png'
+import TeachertrainingBg from '@/public/images/TTC Logo.png'
+import FiveDay from '@/public/images/5day.jpg'
+import Goodnewsclub from '@/public/images/goodnewsclub.jpg'
+import Teachertraining from '@/public/images/teachertraining.jpg'
 
 export default function Features() {
   
@@ -24,16 +28,16 @@ export default function Features() {
     <section className="relative">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#F8972D] via-[#F15A24] to-[#FE1878] pointer-events-none mb-16" aria-hidden="true"></div>
+      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-100 transform -translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore the solutions</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h1 className="text-5xl h2 mb-2">Ministries</h1>
+            <p className="text-xl text-black"></p>
           </div>
 
           {/* Section content */}
@@ -42,24 +46,21 @@ export default function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                <h3 className="h3 mb-3">Highlights</h3>
+                <p className="text-xl text-black">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
               </div>
               {/* Tabs buttons */}
-              <div className="mb-8 md:mb-0">
+              <div className="mb-8 md:mb-0 sha">
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1 sha">Teacher Training </div>
+                    <div className="text-black">If you are looking to strengthen your teaching skills and learn how to more effectively share the Word of God with children.</div>
                   </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
-                    </svg>
+                  <div className="flex justify-center items-center w-8 h-8 bg-[#F8972D] rounded-full shadow flex-shrink-0 ml-3">
                   </div>
                 </a>
                 <a
@@ -68,13 +69,10 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">5-Day Clubs</div>
+                    <div className="text-black">5-Day Clubs are fun, action-packed, week-long clubs for children ages 5-12! Clubs are held for one hour a day for five consecutive days.</div>
                   </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
-                    </svg>
+                  <div className="flex justify-center items-center w-8 h-8 bg-[#F15A24] rounded-full shadow flex-shrink-0 ml-3">
                   </div>
                 </a>
                 <a
@@ -83,13 +81,10 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">After-School Programs</div>
+                    <div className="text-black">After School/In School Good News Clubs are designed to reach boys and girls in the elementary schools with the Gospel of Jesus Christ.</div>
                   </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" />
-                    </svg>
+                  <div className="flex justify-center items-center w-8 h-8 bg-[#FE1878] rounded-full shadow flex-shrink-0 ml-3">
                   </div>
                 </a>
               </div>
@@ -100,25 +95,6 @@ export default function Features() {
               <div className="transition-all">
                 <div className="relative flex flex-col text-center lg:text-right" data-aos="zoom-y-out" ref={tabs}>
                   {/* Item 1 */}
-                  <Transition
-                    show={tab === 1}
-                    appear={true}
-                    className="w-full"
-                    enter="transition ease-in-out duration-700 transform order-first"
-                    enterFrom="opacity-0 translate-y-16"
-                    enterTo="opacity-100 translate-y-0"
-                    leave="transition ease-in-out duration-300 transform absolute"
-                    leaveFrom="opacity-100 translate-y-0"
-                    leaveTo="opacity-0 -translate-y-16"
-                    beforeEnter={() => heightFix()}
-                    unmount={false}                     
-                  >
-                    <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} />
-                    </div>
-                  </Transition>
-                  {/* Item 2 */}
                   <Transition
                     show={tab === 2}
                     appear={true}
@@ -133,11 +109,11 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} />
+                      <Image className="md:max-w-none mx-auto rounded" src={FiveDayBg} width={500} height="462" alt="Features bg" />
+                      <Image className="md:max-w-none absolute w-full left-20 transform animate-float" src={FiveDay} width={400} height="35" alt="Element" style={{ top: '50%' }} />
                     </div>
                   </Transition>
-                  {/* Item 3 */}
+                  {/* Item 2 */}
                   <Transition
                     show={tab === 3}
                     appear={true}
@@ -152,8 +128,27 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} />
+                      <Image className="md:max-w-none mx-auto rounded" src={GoodnewsclubBg} width={500} height="462" alt="Features bg" />
+                      <Image className="md:max-w-none absolute w-full left-20 transform animate-float" src={Goodnewsclub} width={400} height="35" alt="Element" style={{ top: '50%' }} />
+                    </div>
+                  </Transition>
+                  {/* Item 3 */}
+                  <Transition
+                    show={tab === 1}
+                    appear={true}
+                    className="w-full"
+                    enter="transition ease-in-out duration-700 transform order-first"
+                    enterFrom="opacity-0 translate-y-16"
+                    enterTo="opacity-100 translate-y-0"
+                    leave="transition ease-in-out duration-300 transform absolute"
+                    leaveFrom="opacity-100 translate-y-0"
+                    leaveTo="opacity-0 -translate-y-16"
+                    beforeEnter={() => heightFix()}
+                    unmount={false}                     
+                  >
+                    <div className="relative inline-flex flex-col">
+                      <Image className="md:max-w-none mx-auto rounded" src={TeachertrainingBg} width={500} height="462" alt="Features bg" />
+                      <Image className="md:max-w-none absolute w-full left-20 transform animate-float" src={Teachertraining} width={400} height="35" alt="Element" style={{ top: '50%' }} />
                     </div>
                   </Transition>
                 </div>
