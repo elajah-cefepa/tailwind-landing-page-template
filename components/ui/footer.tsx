@@ -18,43 +18,21 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* 2nd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Ministries</h6>
-            <ul className="text-sm">
-              <li className="mb-2">
-                <a href="#0" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">Web Studio</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">DynamicBox Flex</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">Programming Forms</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">Integrations</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">Command-line</a>
-              </li>
-            </ul>
-          </div>
-
           {/* 3th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">CEF</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
+                <a href="/" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">About us</a>
+                <a href="/about" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">About us</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">What we Believe</a>
+                <a href="/whatwebelieve" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">What we Believe</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">Donate</a>
+                <a href="/events" className="text-black hover:text-gray-900 transition duration-150 ease-in-out">Events</a>
               </li>
             </ul>
           </div>

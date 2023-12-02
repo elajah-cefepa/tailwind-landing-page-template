@@ -25,49 +25,49 @@ export const metadata = {
 
                 {/* Card */}
                 <div className="w-full h-full bg-white shadow-lg p-5 dark:bg-slate-900">
-                  <div className="flex items-center gap-x-4 mb-3">
+                  <div className="flex flex-col lg:flex-row items-center gap-x-4 mb-3">
                     <img src={Afterschool.src} width="200" height="200" className='pr-5'/>
                     <div className="flex-shrink-0">
-                      <h3 className="block text-xl font-semibold text-gray-800 dark:text-white">After School Program</h3>
+                      <h3 className="block text-xl font-semibold mt-4 lg:mt-0 text-gray-800 dark:text-white">After School Program</h3>
                     </div>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400">Elementary schools are one of the largest mission fields in the United States today. After School/In School Good News Clubs are designed to reach boys and girls in the elementary schools with the Gospel of Jesus Christ. These clubs are held immediately after school for one hour per week and are taught by teams of trained volunteers from local churches. Clubs include a Bible lesson, memory verse, missionary story, songs, prizes, and more.</p>
+                  <p className="text-black dark:text-gray-400">Elementary schools are one of the largest mission fields in the United States today. After School/In School Good News Clubs are designed to reach boys and girls in the elementary schools with the Gospel of Jesus Christ. These clubs are held immediately after school for one hour per week and are taught by teams of trained volunteers from local churches. Clubs include a Bible lesson, memory verse, missionary story, songs, prizes, and more.</p>
                 </div>
                 {/* End Card */}
 
                 {/* Card */}
                 <div className="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
-                  <div className="flex items-center gap-x-4 mb-3">
+                  <div className="flex flex-col lg:flex-row items-center gap-x-4 mb-3">
                     <img src={GNC.src} width="200" height="200" className='pr-5'/>
                     <div className="flex-shrink-0">
-                      <h3 className="block text-xl font-semibold text-gray-800 dark:text-white">Good News Clubs</h3>
+                      <h3 className="block text-xl font-semibold mt-4 lg:mt-0 text-gray-800 dark:text-white">Good News Clubs</h3>
                     </div>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400">Good News Clubs are for school-age children. These clubs meet for one hour per week in neighborhood homes, churches, day cares, etc. and are designed to provide opportunities to disciple children who have a relationship with Jesus Christ so they can grow in their walk with Him.</p>
+                  <p className="text-black dark:text-gray-400">Good News Clubs are for school-age children. These clubs meet for one hour per week in neighborhood homes, churches, day cares, etc. and are designed to provide opportunities to disciple children who have a relationship with Jesus Christ so they can grow in their walk with Him.</p>
                 </div>
                 {/* End Card */}
 
                 {/* Card */}
                 <div className="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
-                  <div className="flex items-center gap-x-4 mb-3">
+                  <div className="flex flex-col lg:flex-row items-center gap-x-4 mb-3">
                     <img src={Release.src} width="200" height="200" className='pr-5'/>
                     <div className="flex-shrink-0">
-                      <h3 className="block text-xl font-semibold text-gray-800 dark:text-white">Released Time Class</h3>
+                      <h3 className="block text-xl font-semibold mt-4 lg:mt-0 text-gray-800 dark:text-white">Released Time Class</h3>
                     </div>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400">Did you know that in Pennsylvania every child has the right to receive one hour of religious education per week? Released Time Class is a program in which children are released from school for one hour each week. These classes are held at local churches that are located in close proximity to elementary schools. During class, children sing songs, learn a Bible memory verse, hear a continuing missionary story, and most importantly, are taught a Bible lesson from God’s Word. </p>
+                  <p className="text-black dark:text-gray-400">Did you know that in Pennsylvania every child has the right to receive one hour of religious education per week? Released Time Class is a program in which children are released from school for one hour each week. These classes are held at local churches that are located in close proximity to elementary schools. During class, children sing songs, learn a Bible memory verse, hear a continuing missionary story, and most importantly, are taught a Bible lesson from God’s Word. </p>
                 </div>
                 {/* End Card */}
 
                 {/* Card */}
                 <div className="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
-                  <div className="flex items-center gap-x-4 mb-3">
+                  <div className="flex flex-col lg:flex-row items-center gap-x-4 mb-3">
                     <img src={TTC.src} width="200" height="200" className='pr-5'/>
                     <div className="flex-shrink-0">
-                      <h3 className="block text-xl font-semibold text-gray-800 dark:text-white">Teacher Training</h3>
+                      <h3 className="block text-xl font-semibold mt-4 lg:mt-0 text-gray-800 dark:text-white">Teacher Training</h3>
                     </div>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400">Throughout the school year, free teacher training classes are held at our office. During class, we present and discuss Good News Club material, share teaching tips, and have a wonderful time of fellowship. If you are looking to strengthen your teaching skills and learn how to more effectively share the Word of God with children, we would love to have you join us! For churches who are interested, we are more than happy to come to you. Call our office to find out more about our Teacher Training Class today.</p>
+                  <p className="text-black dark:text-gray-400">Throughout the school year, free teacher training classes are held at our office. During class, we present and discuss Good News Club material, share teaching tips, and have a wonderful time of fellowship. If you are looking to strengthen your teaching skills and learn how to more effectively share the Word of God with children, we would love to have you join us! For churches who are interested, we are more than happy to come to you. Call our office to find out more about our Teacher Training Class today.</p>
                 </div>
                 {/* End Card */}
 

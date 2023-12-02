@@ -2,7 +2,7 @@ import Mark from '@/public/images/Mark.jpg';
   
   export default function Staff() {
     return (
-      <section className="bg-gradient-to-b from-[#F15A24] to-white">
+      <section className="bg-grey-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-10 md:pb-20">
 
@@ -13,7 +13,7 @@ import Mark from '@/public/images/Mark.jpg';
 
           <div className="flex items-end">
             <img src={Mark.src} width="200" height="200" className='pr-5'/>
-            <h1 className='text-2xl font-bold'>Director</h1>
+            <div className='text-2xl font-bold'>Mark, <span className='italic'>Director</span></div>
           </div>
           <p className="mb-3 text-lg text-black dark:text-gray-400 pt-5">
               Mark is a city boy who loves the countryside. He hails from Philadelphia, where he came to know Jesus later in life. 

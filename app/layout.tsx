@@ -1,7 +1,7 @@
 import './css/style.css'
 
 import { Inter } from 'next/font/google'
-
+import PrelineScript from '@/components/PrelineScript'
 import Header from '@/components/ui/header'
 import Footer from '@/components/ui/footer'
 
@@ -29,7 +29,9 @@ export default function RootLayout({
           {children}
           <Footer />
         </div>
+        <script src="./node_modules/preline/dist/preline.js"></script>
       </body>
+      <PrelineScript />
     </html>
   )
 }

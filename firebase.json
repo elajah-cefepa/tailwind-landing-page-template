@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "public": "out",
+    "site": "tiogacounty",
+    "cleanUrls": "true",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites" : [
+      {
+        "destination": "/index.html",
+        "source": "**"
+      }
+    ],
+    "frameworksBackend": {
+      "region": "us-east1"
+    }
+  }
+}

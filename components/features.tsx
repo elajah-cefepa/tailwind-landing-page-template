@@ -47,7 +47,7 @@ export default function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Highlights</h3>
-                <p className="text-xl text-black">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                <p className="text-xl text-black"></p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0 sha">
@@ -81,8 +81,8 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">After-School Programs</div>
-                    <div className="text-black">After School/In School Good News Clubs are designed to reach boys and girls in the elementary schools with the Gospel of Jesus Christ.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Good News Clubs</div>
+                    <div className="text-black">These clubs are designed to provide opportunities to disciple children who have a relationship with Jesus Christ.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-[#FE1878] rounded-full shadow flex-shrink-0 ml-3">
                   </div>

@@ -14,7 +14,12 @@ export const metadata = {
             <h1 className="h1">Connect</h1>
           </div>
 
-          
+          <div className="mb-3 text-lg text-black dark:text-gray-400 pt-5">
+              Email: tiogacounty@cefepa.net
+              <br/><br/> Phone Number: 570-724-4591
+              <br/><br/> Address: 16 Charleston St. Wellsboro, PA 16901
+              <br/><br/> Office Hours: 9am-5pm Monday - Fridday
+          </div>
 
         </div>
       </div>
