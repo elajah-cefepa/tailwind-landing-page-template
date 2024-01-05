@@ -63,27 +63,7 @@ export const metadata = {
                   </div>
                 </a>
                 {/* End Card */}
-
-                {/* Card */}
-                <a className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
-                  <div className="aspect-w-16 aspect-h-11">
-                    <img className="w-full object-cover rounded-xl" src={Soccer.src} alt="Image Description" />
-                  </div>
-                  <div className="my-6">
-                    <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:group-hover:text-white">
-                      Good News Soccer Camp
-                    </h3>
-                    <p className="mt-5 text-gray-600 dark:text-gray-400">
-                      Still working on Soccer Camp dates...
-                    </p>
-                  </div>
-                  <div className="mt-auto flex items-center gap-x-3">
-                    <div>
-                      <h5 className="text-sm text-gray-800 dark:text-gray-200">Location:</h5>
-                    </div>
-                  </div>
-                </a>
-                {/* End Card */}
+                
               </div>
               {/* End Grid */}
 

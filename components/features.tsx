@@ -81,8 +81,8 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Good News Clubs</div>
-                    <div className="text-black">These clubs are designed to provide opportunities to disciple children who have a relationship with Jesus Christ.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">After School Program</div>
+                    <div className="text-black">After School/In School Good News Clubs are designed to reach boys and girls in the elementary schools with the Gospel of Jesus Christ.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-[#FE1878] rounded-full shadow flex-shrink-0 ml-3">
                   </div>

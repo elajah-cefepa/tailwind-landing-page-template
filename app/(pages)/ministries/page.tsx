@@ -40,22 +40,11 @@ export const metadata = {
                   <div className="flex flex-col lg:flex-row items-center gap-x-4 mb-3">
                     <img src={GNC.src} width="200" height="200" className='pr-5'/>
                     <div className="flex-shrink-0">
-                      <h3 className="block text-xl font-semibold mt-4 lg:mt-0 text-gray-800 dark:text-white">Good News Clubs</h3>
+                      <h3 className="block text-xl font-semibold mt-4 lg:mt-0 text-gray-800 dark:text-white">5-Day Clubs</h3>
                     </div>
                   </div>
-                  <p className="text-black dark:text-gray-400">Good News Clubs are for school-age children. These clubs meet for one hour per week in neighborhood homes, churches, day cares, etc. and are designed to provide opportunities to disciple children who have a relationship with Jesus Christ so they can grow in their walk with Him.</p>
-                </div>
-                {/* End Card */}
-
-                {/* Card */}
-                <div className="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
-                  <div className="flex flex-col lg:flex-row items-center gap-x-4 mb-3">
-                    <img src={Release.src} width="200" height="200" className='pr-5'/>
-                    <div className="flex-shrink-0">
-                      <h3 className="block text-xl font-semibold mt-4 lg:mt-0 text-gray-800 dark:text-white">Released Time Class</h3>
-                    </div>
-                  </div>
-                  <p className="text-black dark:text-gray-400">Did you know that in Pennsylvania every child has the right to receive one hour of religious education per week? Released Time Class is a program in which children are released from school for one hour each week. These classes are held at local churches that are located in close proximity to elementary schools. During class, children sing songs, learn a Bible memory verse, hear a continuing missionary story, and most importantly, are taught a Bible lesson from God’s Word. </p>
+                  <p className="text-black dark:text-gray-400">5-Day Clubs are free, hour-long programs held for five consecutive days during the summer months in parks, on porches and front steps, in yards, or inside homes.
+                    The 5-Day Club environment not only allows a unsaved child to hear the Gospel, but it also challenges the saved child to grow in their walk with the Lord. The children are challenged to see the mission field that is all around them, both locally and all around the world. They are encouraged to share their faith and invite friends to join them in club.</p>
                 </div>
                 {/* End Card */}
 

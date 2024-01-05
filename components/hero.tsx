@@ -2,9 +2,11 @@ import VideoThumb from '@/public/images/hero-image.png'
 import ModalVideo from '@/components/modal-video'
 import Carousel from './carousel'
 
+import GNC from '@/public/images/gnc.jpg';
+
 export default function Hero() {
   return (
-    <section className="relative bg-gray-100">
+    <section className="relative bg-gray-100 ">
 
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1" aria-hidden="true">
@@ -29,14 +31,16 @@ export default function Hero() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-12 md:pt-12 bg-gradient-to-br from-[#F8972D] via-[#F15A24] to-[#FE1878] rounded-xl shadow-2xl">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Call to Action <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"></span></h1>
+          <div className="text-center pb-12 md:pb-12 md:pt-12 rounded-xl shadow-2xl ">
+            <h1 className="text-3xl md:text-4xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Child Evangelism Fellowship of Tioga County<span className="bg-clip-text text-transparent bg-gradient-to-r from-[#F8972D] via-[#F15A24] to-[#FE1878]"></span></h1>
             <div className="max-w-3xl mx-auto">
-              <div className="text-2xl text-black mb-8" data-aos="zoom-y-out" data-aos-delay="150">
-                <p>To win boys and girls to Jesus Christ</p>
-                <p>To help children grow as Christians</p>
-                <p>To channel children into the local church</p>
-                <p>To train young people to serve Jesus Christ</p>
+              <div className="text-xl text-black mb-8" data-aos="zoom-y-out" data-aos-delay="150">
+                <h1 className="text-center text-2xl font-semibold">
+                  We aim to guide the children in Tioga County to Jesus Christ and help them confidently run their journey of faith. 
+                </h1>
+                <div className="flex items-center justify-center">
+                  <img src={GNC.src} width="1000" height="1000" className="pt-5 rounded-xl" alt="Centered Image" />
+                </div>
               </div>
             </div>
           </div>
