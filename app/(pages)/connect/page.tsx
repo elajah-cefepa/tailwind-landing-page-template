@@ -18,7 +18,7 @@ export const metadata = {
               Email: tiogacounty@cefepa.net
               <br/><br/> Phone Number: 570-724-4591
               <br/><br/> Address: 16 Charleston St. Wellsboro, PA 16901
-              <br/><br/> Office Hours: 9am-5pm Monday - Fridday
+              <br/><br/> Office Hours: 9am-5pm Monday - Friday
           </div>
 
         </div>

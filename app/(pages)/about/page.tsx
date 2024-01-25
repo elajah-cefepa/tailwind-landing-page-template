@@ -2,8 +2,12 @@ export const metadata = {
     title: 'About us - Simple',
     description: 'Page description',
   }
+
+import * as React from "react";
+import Image from 'next/image';
     
 import Staff from "./Staff"
+import Commitee from "./commitee"
 
   export default function About() {
     return (
@@ -31,6 +35,9 @@ import Staff from "./Staff"
 
 
           <Staff />
+
+          <h1 className="h1 text-center">Committee Members</h1>
+          <Commitee />
 
         </div>
       </div>
