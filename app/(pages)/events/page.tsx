@@ -11,7 +11,7 @@ export const metadata = {
     return (
       <section className="bg-gradient-to-b from-gray-100 to-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+        <div className="pt-32 pb-12 md:pt-40 md:pb-20 ">
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
@@ -21,7 +21,7 @@ export const metadata = {
           {/* Cards */}
             <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
               {/* Grid */}
-              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
                 {/* Card */}
                 <a className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
                   <div className="aspect-w-16 aspect-h-11">
