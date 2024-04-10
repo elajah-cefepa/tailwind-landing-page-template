@@ -109,8 +109,9 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FiveDayBg} width={500} height="462" alt="Features bg" />
                       <Image className="md:max-w-none absolute w-full left-20 transform animate-float" src={FiveDay} width={400} height="35" alt="Element" style={{ top: '50%' }} />
+                      <Image className="md:max-w-none mx-auto rounded" src={FiveDayBg} width={500} height="462" alt="Features bg" />
+                      
                     </div>
                   </Transition>
                   {/* Item 2 */}
