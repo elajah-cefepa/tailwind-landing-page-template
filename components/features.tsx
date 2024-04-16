@@ -69,8 +69,8 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">5-Day Clubs</div>
-                    <div className="text-black">5-Day Clubs are fun, action-packed, week-long clubs for children ages 5-12! Clubs are held for one hour a day for five consecutive days.</div>
+                    <div className 
+                    div className="text-black">5-Day Clubs are fun, action-packed, week-long clubs for children ages 5-12! Clubs are held for one hour a day for five consecutive days.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-[#F15A24] rounded-full shadow flex-shrink-0 ml-3">
                   </div>
@@ -109,9 +109,8 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none absolute w-full left-20 transform animate-float" src={FiveDay} width={400} height="35" alt="Element" style={{ top: '50%' }} />
-                      <Image className="md:max-w-none mx-auto rounded" src={FiveDayBg} width={500} height="462" alt="Features bg" />
-                      
+                      <Image className="md:max-w-none absolute w-full left-20 transform animate-float" src={FiveDayBg} width={400} height="35" alt="Element" style={{ top: '50%' }} />
+                      <Image className="md:max-w-none mx-auto rounded" src={FiveDay} width={500} height="462" alt="Features bg" />
                     </div>
                   </Transition>
                   {/* Item 2 */}
