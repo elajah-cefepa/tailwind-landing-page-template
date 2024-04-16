@@ -39,9 +39,9 @@ export default function Header() {
           <nav className="hidden md:flex md:grow">
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-               {/*<li>
-              <Link href="/summercampsignup" className="font-medium text-[#F15A24] hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Summer Camp Sign-up</Link>
-               </li>*/}
+               <li>
+              <Link href="/summercampsignup" className="hidden font-medium text-[#F15A24] hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Summer Camp Sign-up</Link>
+               </li>
               <li>
                 <Link href="/ministries" className="font-medium text-[#F15A24] hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Ministries</Link>
               </li>
