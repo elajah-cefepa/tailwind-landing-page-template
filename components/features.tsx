@@ -69,8 +69,8 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className 
-                    div className="text-black">5-Day Clubs are fun, action-packed, week-long clubs for children ages 5-12! Clubs are held for one hour a day for five consecutive days.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1 sha">\5-Day Club </div>
+                    <div className="text-black">5-Day Clubs are fun, action-packed, week-long clubs for children ages 5-12! Clubs are held for one hour a day for five consecutive days.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-[#F15A24] rounded-full shadow flex-shrink-0 ml-3">
                   </div>
