@@ -65,7 +65,7 @@ export default function MobileMenu() {
         >
           <ul className="px-5 py-2">
           <li>
-              <Link href="/SummerCampSignUp" className="flex font-medium w-full text-[#F15A24] hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Summer Camp Sign-up</Link>
+              <Link href="/SummerCampSignUp" className="hidden flex font-medium w-full text-[#F15A24] hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Summer Camp Sign-up</Link>
             </li>
             <li>
               <Link href="/ministries" className="flex font-medium w-full text-[#F15A24] hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Ministries</Link>

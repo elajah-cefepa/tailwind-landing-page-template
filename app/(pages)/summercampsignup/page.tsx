@@ -13,7 +13,7 @@ export default function SummerCampSignUp() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-8 md:pb-10">
-            <h1 className="h1">What We Believe</h1>
+            <h1 className="h1">Sign Up for Summer Camp Here</h1>
           </div>
 
       
