@@ -13,10 +13,10 @@ export default function SummerCampSignUp() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-8 md:pb-10">
-            <h1 className="h1">Sign Up for Summer Camp Here</h1>
+            <h1 className="h1">Sign Up for Summer coming soon</h1>
           </div>
     
-          <div className="min-h-screen p-6 bg-gray-100 flex items-center justify-center">
+          {/*<div className="min-h-screen p-6 bg-gray-100 flex items-center justify-center">
             <div className="container max-w-screen-lg mx-auto">
               <div>
                 <h2 className="font-semibold text-xl text-gray-600">Camp Registration</h2>
@@ -80,6 +80,7 @@ export default function SummerCampSignUp() {
   </button>
 
 
+
 <button tabIndex={-1 as number} className="cursor-pointer outline-none focus:outline-none border-l border-gray-200 transition-all text-gray-300 hover:text-blue-600">
   <svg className="w-4 h-4 mx-2 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
 </button>
@@ -120,7 +121,7 @@ export default function SummerCampSignUp() {
                 </div>
               </div>
 
-                        {/* Add more fields here */}
+                        {/* Add more fields here 
                         <div className="md:col-span-5">
                           <label htmlFor="child_name">Child's First and Last Name</label>
                           <input type="text" name="child_name" id="child_name" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" />
@@ -173,14 +174,14 @@ export default function SummerCampSignUp() {
               
 
 
-                        {/* Add more fields here */}
+                        {/* Add more fields here 
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>
