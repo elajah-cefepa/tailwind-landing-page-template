@@ -108,7 +108,7 @@ export default function SummerCampSignUp() {
               <div className="md:col-span-5">
                 <div className="inline-flex items-center">
                   <input type="checkbox" name="billing_same" id="billing_same" className="form-checkbox" />
-                  <label htmlFor="billing_same" class="ml-2">My billing address is different than above.</label>
+                  <label htmlFor="billing_same" className="ml-2">My billing address is different than above.</label>
                 </div>
               </div>
 
