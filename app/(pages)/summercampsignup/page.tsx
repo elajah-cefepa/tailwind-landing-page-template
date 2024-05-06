@@ -22,7 +22,7 @@ export default function SummerCampSignUp() {
     virtual_signature: ''
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: any) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -30,7 +30,7 @@ export default function SummerCampSignUp() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     uploadToPath('/forms/tioga/summercamp-sign-up', formData);
     // Reset form fields after submission
@@ -71,7 +71,8 @@ export default function SummerCampSignUp() {
                       <p className="mt-4"></p> 
                       <div className="md:col-span-5">
                         <label htmlFor="camp_pick">Camp Location</label>
-                        <select name="camp_pick" id="camp_pick" value={formData.camp_pick}  onChange={handleChange} className="h-10 border mt-1 rounded px-4 w-full bg-gray-50">
+                        <select name="camp_pick" id="camp_pick" value={formData.camp_pick} onChange={handleChange} className="h-10 border mt-1 rounded px-4 w-full bg-gray-50">
+                        <option value="camp0">Click to Select</option>
                           <option value="camp1">Nauvoo School House116 Linck Hill Road
                                         Morris, PA 16938</option>
                           <option value="camp2">Ives Run South LoopIves Run South Shelter
@@ -223,6 +224,7 @@ export default function SummerCampSignUp() {
                         <div className="md:col-span-5">
                           <label htmlFor="child_tshirt_size">Child's T-shirt Size</label>
                           <select name="child_tshirt_size" id="child_tshirt_size"  value={formData.child_tshirt_size} onChange={handleChange}className="h-10 border mt-1 rounded px-4 w-full bg-gray-50">
+                            <option value="0">Click to Select</option>
                             <option value="s">Small</option>
                             <option value="m">Medium</option>
                             <option value="l">Large</option>
